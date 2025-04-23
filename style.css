@@ -1,0 +1,53 @@
+/* Basic Reset (optional, but good practice) */
+body, h1, h2, p, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Apply a default font */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text */
+    line-height: 1.6; /* Improve text readability */
+}
+
+/* Style using an ID */
+#main-header {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    padding: 20px; /* Space inside the header */
+    text-align: center; /* Center the text */
+    margin-bottom: 20px; /* Space below the header */
+    font-family: 'Georgia', serif; /* Different font for the header */
+}
+
+/* Style using a class */
+.section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+.section-title {
+    color: #28a745; /* Green color for section titles */
+    margin-bottom: 15px;
+    font-size: 1.5em; /* Slightly larger font size */
+}
+
+/* Style an image */
+.logo {
+    display: block; /* Prevent inline spacing issues */
+    max-width: 150px; /* Ensure image doesn't get too large */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Center the image with top and bottom margin */
+    border: 2px solid #ccc; /* Light gray border around the image */
+    border-radius: 50%; /* Make it circular (if the image is square-ish) */
+}
+
+/* Style a paragraph */
+p {
+    margin-bottom: 10px; /* Space between paragraphs */
+}
